@@ -70,6 +70,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>spring-boot-admin-server</artifactId>
+        </dependency>
         <!-- removed due to NPE in AbstractMessageConverterMethodProcessor#formatValue should be fixed with 2.1.0.M4
         <dependency>
             <groupId>org.springframework.boot</groupId>
